@@ -1,0 +1,63 @@
+/* fetchdata.css */
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+  }
+  
+  .heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #d1d1d1;
+    background-color: #fff;
+  }
+  
+  .table-head {
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .table-head th,
+  .table-body td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .table-body tr:nth-child(odd) {
+    background-color: #f2f2f2;
+  }
+  
+  .table-body tr:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Style the action column */
+  .table-body .action {
+    text-align: center;
+  }
+  
+  /* Style the action buttons */
+  .action button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .action button:hover {
+    background-color: #0056b3;
+  }
+  
